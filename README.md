@@ -4,9 +4,9 @@ ________
 #### *API-приложение сети по продаже электроники*
 ________
 ## Stack:
-- Python 3.10
+- Python
 - Django
-- Django REST framework 3.10
+- Django REST framework
 - Postgres
 ___
 ## Project launch:
@@ -22,3 +22,6 @@ ___
 > python manage.py makemigrations 
 6. Применить все миграции:
 > python manage.py migrate
+___
+## API Swagger:
+По пути "../api/schema/swagger-ui" доступна документация API
