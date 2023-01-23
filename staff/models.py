@@ -16,6 +16,7 @@ class Employee(AbstractUser):
     position = models.PositiveSmallIntegerField(
         verbose_name="Должность",
         choices=Position.choices,
+        default=Position.analyst
     )
 
     def __str__(self):
